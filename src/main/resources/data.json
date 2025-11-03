@@ -1,0 +1,92 @@
+{
+  "term": "2025-FALL",
+  "department": { "code": "CS", "name": "Computer Science" },
+  "courses": [
+    {
+      "code": "CS201",
+      "title": "Object-Oriented Programming",
+      "credits": 5,
+      "type": "MANDATORY",
+      "schedule": { "day": "MON", "start": "10:00", "end": "12:00", "room": "B302" },
+      "instructor": { "id": "P-12", "name": "Dr. Kovacs" },
+      "students": [
+        { "id": "S-001", "name": "Maria", "year": 2, "group": "2A", "grades": [8, 9, 10] },
+        { "id": "S-002", "name": "Andrei", "year": 2, "group": "2A", "grades": [6, 7, 7] }
+      ],
+      "assessments": [
+        { "kind": "LAB", "weight": 0.4 },
+        { "kind": "EXAM", "weight": 0.6 }
+      ]
+    },
+    {
+      "code": "CS245",
+      "title": "Data Structures",
+      "credits": 4,
+      "type": "MANDATORY",
+      "schedule": { "day": "WED", "start": "08:00", "end": "10:00", "room": "A105" },
+      "instructor": { "id": "P-15", "name": "Dr. Pop" },
+      "students": [
+        { "id": "S-001", "name": "Maria", "year": 2, "group": "2A", "grades": [7, 8, 9] },
+        { "id": "S-003", "name": "Elena", "year": 2, "group": "2B", "grades": [9, 9, 10] }
+      ],
+      "assessments": [
+        { "kind": "LAB", "weight": 0.5 },
+        { "kind": "EXAM", "weight": 0.5 }
+      ]
+    },
+    {
+      "code": "CS301",
+      "title": "Databases",
+      "credits": 5,
+      "type": "MANDATORY",
+      "schedule": { "day": "MON", "start": "11:00", "end": "13:00", "room": "A210" },
+      "instructor": { "id": "P-18", "name": "Dr. Pavel" },
+      "students": [
+        { "id": "S-002", "name": "Andrei", "year": 2, "group": "2A", "grades": [7, 8, 8] },
+        { "id": "S-004", "name": "Cristina", "year": 2, "group": "2B", "grades": [9, 9, 9] }
+      ],
+      "assessments": [
+        { "kind": "LAB", "weight": 0.3 },
+        { "kind": "PROJECT", "weight": 0.2 },
+        { "kind": "EXAM", "weight": 0.5 }
+      ]
+    },
+    {
+      "code": "CS320",
+      "title": "Software Engineering",
+      "credits": 6,
+      "type": "ELECTIVE",
+      "schedule": { "day": "FRI", "start": "09:00", "end": "12:00", "room": "B120" },
+      "instructor": { "id": "P-22", "name": "Dr. Balan" },
+      "students": [
+        { "id": "S-003", "name": "Elena", "year": 2, "group": "2B", "grades": [10, 10, 9] },
+        { "id": "S-004", "name": "Cristina", "year": 2, "group": "2B", "grades": [9, 8, 9] },
+        { "id": "S-005", "name": "Robert", "year": 3, "group": "3A", "grades": [7, 8, 7] }
+      ],
+      "assessments": [
+        { "kind": "LAB", "weight": 0.2 },
+        { "kind": "PROJECT", "weight": 0.5 },
+        { "kind": "EXAM", "weight": 0.3 }
+      ]
+    },
+    {
+      "code": "CS999",
+      "title": null,
+      "credits": -2,
+      "type": 100,
+      "schedule": { "day": "FUNDAY", "start": "25:00", "end": "27:00", "room": "" },
+      "instructor": { "id": null, "name": "" },
+      "students": "none",
+      "assessments": [{ "kind": "EXAM", "weight": 1.5 }]
+    }
+  ],
+  "advisors": [
+    { "id": "A-01", "name": "Prof. Ionescu", "groups": ["2A", "2B"] },
+    { "id": "A-02", "name": "Prof. Marin", "groups": ["3A"] }
+  ],
+  "meta": {
+    "semesterWeeks": 14,
+    "holidays": ["2025-12-01", "2025-12-24"],
+    "examPeriod": { "start": "2026-01-10", "end": "2026-02-05" }
+  }
+}
