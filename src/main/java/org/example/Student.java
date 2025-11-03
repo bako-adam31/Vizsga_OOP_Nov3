@@ -8,7 +8,7 @@ public class Student {
     private String name;
     private int year;
     private String group;
-    private List<Integer> grades; // A JSON-ban ez [8, 9, 10]
+    private List<Integer> grades;
 
     public Student() {
     }
