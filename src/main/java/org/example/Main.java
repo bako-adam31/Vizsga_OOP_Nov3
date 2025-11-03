@@ -38,8 +38,7 @@ public class Main {
         System.out.println("\n--- Riport generálása a 'fajl.txt'-be (Részletes)... ---");
 
         try (PrintWriter fileWriter = new PrintWriter(new FileWriter("fajl.txt"))) {
-
-            // MÓDOSÍTÁS: A 'generateDetailedReport'-ot hívjuk
+            
             generator.generateDetailedReport(data, fileWriter);
 
             System.out.println("A 'fajl.txt' sikeresen létrejött.");
